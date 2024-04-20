@@ -1,0 +1,32 @@
+:root{
+
+    --primary-heading-color: #183567;
+    --sec-heading-color: rgba(99,115,129,.5);
+    --third-heading-color: #252930;
+
+
+    --primary-text-color: #54595F;
+
+    --top-menubar-bg: #F1F6F7;
+
+    --body-bg-color-white:#FFFFFF;
+    --body-bg-color-sec-white: #F2F7F8;
+    --body-bg-sec-color: #E9EEEF;
+
+    --footer-bg-color: #1A3D6D;
+
+
+    /*Text font size and width*/
+
+    --text-font-size: 18px;
+    --text-font-width-400: 400;
+    --text-font-family: "Ubuntu", sans-serif;
+
+
+    --heading-font-family: "Vidaloka", serif;
+    
+
+
+
+
+}
