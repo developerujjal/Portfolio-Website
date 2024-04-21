@@ -381,7 +381,8 @@ nav#top-manue-bar {
 
 .optimization-section h3{
     color: white;
-    font-size: 28px;
+    font-size: 30px;
+    font-family: var(--heading-font-family);
 }
 
 
@@ -419,3 +420,103 @@ button.reqbtn:hover{
     background-color: white;
 }
 
+
+
+/* third section */
+
+
+#third-section{
+    padding: 60px 0px;
+}
+
+
+.experienced-section {
+    text-align: center;
+    padding: 0px 70px 45px 70px;
+}
+
+.experienced-section h3{
+    color: var(--primary-heading-color);
+    font-size: 30px;
+    font-family: var(--heading-font-family);
+    margin-bottom: 25px;
+}
+
+.experienced-section p {
+    font-size: var(--text-font-size);
+    line-height: 33px;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-width-400);
+    color: var(--primary-text-color);
+}
+
+.experienced-lg img {
+    width: 58px;
+}
+
+.experienced-h5 h5{
+    font-size: 18px;
+    color: rgba(99, 115, 129, .5);
+}
+
+.experienced-lg {
+    margin-bottom: 13px;
+}
+
+.experienced-title {
+    margin-bottom: 5px;
+}
+
+.experienced-title h3 {
+    font-size: 26px;
+    font-family: var(--heading-font-family);
+    color: var(--primary-heading-color);
+}
+
+.experienced-box-singel {
+    width: 29%;
+    text-align: justify;
+}
+
+.experienced-p p {
+    font-size: 17px;
+    line-height: 29px;
+    color: var(--primary-text-color);;
+}
+
+
+.experienced-box-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.experienced-section-main-box {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.experienced-p {
+    text-align: justify;
+    margin: 10px 0px 35px 0px;
+}
+
+
+
+.experienced-btn a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--text-font-family);
+    color: var(--primary-heading-color);
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+
+.experienced-btn a:hover{
+    transform: translateY(-10px);
+
+    cursor:default;
+}
