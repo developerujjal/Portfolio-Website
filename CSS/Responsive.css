@@ -83,7 +83,7 @@
         width: 510px;
     }
 
-    .container-two{
+    .container{
         width: 96%;
     }
 
@@ -178,12 +178,13 @@
 
     .experienced-section-main-box{
         padding-left: 0px;
-        margin: 0;
+        margin: 0px;
+        padding-right: 0;
     }
 
     .experienced-box-wrapper{
         flex-direction: column;
-        row-gap: 60px;
+        row-gap: 75px;
     }
 
     .experienced-box-singel{
@@ -205,8 +206,14 @@
         margin-bottom: 115px;
     }
 
+
+
     .experienced-section h3{
         font-size: 37px;
+    }
+
+    .experienced-p{
+        margin-bottom: 40px;
     }
 
     .experienced-section p{
@@ -232,4 +239,77 @@
     .experienced-btn a{
         font-size: 20px;
     }
+
+    section#four-section{
+        width: 510px;
+    }
+
+    .number-box-wrapper{
+        flex-direction: column;
+        row-gap: 45px;
+        padding: 32px 0px;
+    }
+
+    .number-singel h5{
+        font-size: 75px;
+    }
+
+
+
+    .number-singel{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number-singel span{
+    margin: auto;
+    font-size: 35px;
+    }
+
+
+    /* Four Section */
+
+
+    section#five-section{
+        width: 510px;
+        padding: 80px 0px;
+    }
+
+    .about-me-wrapper{
+        overflow: unset;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-img{
+        width: 100%;
+    }
+
+    .about-me-img img{
+        width: 100%;
+    }
+
+    .about-me-content{
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .about-me-content p{
+        font-size: 26px;
+        line-height: 40px;
+        text-align: justify;
+    }
+
+    .about-me-content p:first-child{
+        margin-bottom: 60px;
+    }
+
+
+
+
+
+
+
+
 }
