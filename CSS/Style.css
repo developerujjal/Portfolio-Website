@@ -482,6 +482,7 @@ section#four-section {
 .about-me-wrapper {
     overflow: hidden;
     padding: 0px 39px;
+    margin-bottom: 80px;
 }
 
 .about-me-img {
@@ -514,4 +515,34 @@ section#five-section {
 
 .about-me-content p:first-child{
     margin-bottom: 20px;
+}
+
+
+.about-me-content-below {
+    display: flex;
+    column-gap: 60px;
+}
+
+.about-me-ct-first h2 {
+    color: var(--primary-heading-color);
+    font-size: 30px;
+    font-family: var(--heading-font-family);
+    margin-bottom: 25px;
+}
+
+.about-me-ct-first p {
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-width-400);
+    font-family: var(--text-font-family);
+    color: var(--primary-text-color);
+    line-height: 31px;
+    margin-bottom: 25px;
+}
+
+.about-me-ct-first p:first-child{
+    margin-bottom: 20px;
+}
+
+#about-me-ct-first-p-p{
+    margin-bottom: 0;
 }
