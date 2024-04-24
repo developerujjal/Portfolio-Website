@@ -306,10 +306,67 @@
     }
 
 
+    .about-me-content-below{
+        flex-direction: column;
+    }
+
+    .about-me-ct-first h2{
+        font-size: 37px;
+        margin-bottom: 40px;
+    }
+
+
+    .about-me-ct-first p{
+        font-size: 26px;
+        line-height: 40px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    #about-me-ct-first-p-p{
+        margin-bottom: 40px;
+    }
 
 
 
+/* Four Section */
+
+.viewall-sevices-singel{
+    flex-direction: column;
+}
+
+section#six-section{
+    width: 510px;
+}
+
+.first-viewall-services{
+    width: 100%;
+    padding-right: 0;
+    text-align: left;
+}
+
+.first-viewall-services h4{
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 35px;
+}
 
 
+.first-viewall-services h5{
+    font-size: 25px;
+}
+
+
+
+.second-viewall-services {
+    width: 100%;
+    text-align: left;
+    padding-right: 0px;
+}
+
+button#viewall-services-btn{
+    padding: 24px 38px;
+    font-size: 20px;
+}
 
 }
