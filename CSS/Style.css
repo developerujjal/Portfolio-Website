@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
-*,
-::before,
-::after {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"); *, ::before, ::after {
     box-sizing: border-box;
 }
 
@@ -12,21 +7,11 @@
     padding: 0px;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
     margin: 0px;
 }
 
-ul,
-ol {
+ul, ol {
     list-style: none;
 }
 
@@ -45,16 +30,12 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
-img,
-picture {
+img, picture {
     max-width: 100%;
     display: block;
 }
 
-input,
-button,
-textarea,
-select {
+input, button, textarea, select {
     font: inherit;
 }
 
@@ -63,9 +44,7 @@ select {
         scroll-behavior: auto;
     }
 
-    *,
-    ::before,
-    ::after {
+    *, ::before, ::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
@@ -103,13 +82,12 @@ nav#top-manue-bar {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    .main-menu {
+    & .main-menu {
         flex-basis: 870px;
         flex-grow: 1;
     }
 
-    .ph-number {
+    & .ph-number {
         flex-basis: 220px;
         flex-grow: 1;
     }
@@ -475,10 +453,6 @@ section#four-section {
     color: var(--primary-text-color);
 }
 
-
-
-/* Five Section */
-
 .about-me-wrapper {
     overflow: hidden;
     padding: 0px 39px;
@@ -513,10 +487,9 @@ section#five-section {
     line-height: 31px;
 }
 
-.about-me-content p:first-child{
+.about-me-content p:first-child {
     margin-bottom: 20px;
 }
-
 
 .about-me-content-below {
     display: flex;
@@ -539,42 +512,31 @@ section#five-section {
     margin-bottom: 25px;
 }
 
-.about-me-ct-first p:first-child{
+.about-me-ct-first p:first-child {
     margin-bottom: 20px;
 }
 
-#about-me-ct-first-p-p{
-    margin-bottom: 0;
+#about-me-ct-first-p-p {
+    margin-bottom: 0px;
 }
 
-
-
-
-/* Four Section */
-
-
-
-.first-viewall-services h4{
-    
-font-size: 30px;
-    
-font-family: var(--heading-font-family);
-    
-color: var(--primary-heading-color);
-    
-width: 611px;
+.first-viewall-services h4 {
+    font-size: 30px;
+    font-family: var(--heading-font-family);
+    color: var(--primary-heading-color);
+    width: 611px;
 }
 
-.first-viewall-services h5{
-    color: #a9b5bc;
+.first-viewall-services h5 {
+    color: rgb(169, 181, 188);
     font-family: var(--text-font-family);
     font-size: 19px;
     font-weight: 700;
     letter-spacing: 1.6px;
 }
 
-section#six-section{
-    background-color: #EDF1F2;
+section#six-section {
+    background-color: rgb(237, 241, 242);
 }
 
 .viewall-sevices-singel {
@@ -601,17 +563,81 @@ button#viewall-services-btn {
     cursor: pointer;
     margin: 29px 0px;
     background-color: var(--primary-heading-color);
-    border-color: rgba(22,32,47,0);
+    border-color: rgba(22, 32, 47, 0);
     outline: none;
     border-radius: 5px;
     color: white;
-    transition: 0.2s;
+    transition: all 0.2s ease 0s;
 }
 
-
-button#viewall-services-btn:hover{
-    background-color: #272525;
+button#viewall-services-btn:hover {
+    background-color: rgb(39, 37, 37);
     transform: translateY(-7px);
 }
 
+.main-web-design-wrapper {
+    display: flex;
+    column-gap: 56px;
+    padding: 85px 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.first-design-img {
+    background-image: url("../img/entrepreneur-3850511_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 6px;
+    width: 45%;
+    height: 556px;
+}
+
+.web-design-content {
+    width: 40%;
+    align-self: center;
+}
+
+.web-design-content h5 {
+    font-size: 21px;
+    color: rgba(99, 115, 129, 0.5);
+}
+
+.web-design-content h3 {
+    color: var(--primary-heading-color);
+    font-size: 39px;
+    font-family: var(--heading-font-family);
+    width: 564px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.web-design-cp p {
+    font-size: 17px;
+    font-weight: var(--text-font-width-400);
+    font-family: var(--text-font-family);
+    color: var(--primary-text-color);
+    line-height: 31px;
+    margin-bottom: 25px;
+}
+
+.web-design-cp p:last-child {
+    margin-bottom: 0px;
+}
+
+
+.web-design-content h3::after{
+    content: "";
+    width: 77px;
+    height: 3px;
+    background-color: rgba(99,115,129,.34);
+    display: block;
+    position: absolute;
+    top: 200px;
+}
+
+
+.web-design-cp {
+    margin-top: 47px;
+}
 

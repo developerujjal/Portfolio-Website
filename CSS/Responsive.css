@@ -115,7 +115,7 @@
     }
 
     .content-box-stuff-wrapper p{
-        font-size: 26px;
+        font-size: 25px;
         width: 446px;
         line-height: 40px;
         text-align: justify;
@@ -217,7 +217,7 @@
     }
 
     .experienced-section p{
-        font-size: 26px;
+        font-size: 25px;
         line-height: 40px;
         text-align: justify;
     }
@@ -296,7 +296,7 @@
     }
 
     .about-me-content p{
-        font-size: 26px;
+        font-size: 25px;
         line-height: 40px;
         text-align: justify;
     }
@@ -317,7 +317,7 @@
 
 
     .about-me-ct-first p{
-        font-size: 26px;
+        font-size: 25px;
         line-height: 40px;
         text-align: justify;
         margin-bottom: 40px;
@@ -367,6 +367,37 @@ section#six-section{
 button#viewall-services-btn{
     padding: 24px 38px;
     font-size: 20px;
+}
+
+
+
+/* seven section */
+
+.main-web-design-wrapper{
+    flex-direction: column;
+}
+
+.first-design-img{
+    width: 100%;
+    height: 400px;
+}
+
+.web-design-content{
+    width: 100%; 
+}
+
+.web-design-content h3{
+    width: 454px;
+}
+
+section#seven-section {
+    width: 510px;
+}
+
+.web-design-cp p{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
 }
 
 }
