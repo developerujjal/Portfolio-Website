@@ -14,7 +14,6 @@
 
     .logo img {
         width: 90px;
-        ;
         margin: 4px auto 4px auto;
     }
 
@@ -475,6 +474,39 @@
         font-size: 23px;
         justify-content: space-between;
         display: flex;
+    }
+
+
+    /* Ten Section */
+
+    #ten-section{
+        width: 510px;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .footer-des p{
+        font-size: 25px;
+        line-height: 40px;
+        text-align: justify;
+    }
+
+    .singel-footer-menu ol li a{
+        font-size: 23px;
+    }
+
+    .singel-footer-menu ol li{
+        font-size: 23px;
+    }
+
+
+    /* Copyright stuff */
+
+    #copyright-bg{
+        width: 510px;
     }
 
 
